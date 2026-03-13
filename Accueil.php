@@ -13,7 +13,7 @@
     <?php
     require 'header.php'
     ?>
-    <h1>hello world</h1>
+
 
 </body>
 

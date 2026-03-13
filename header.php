@@ -7,6 +7,7 @@
     <meta name="description" content="un site de restauration">
     <link rel="stylesheet" href="style.css">
     <title>le gourmand</title>
+    <script src="https://kit.fontawesome.com/c120f79562.js" crossorigin="anonymous"></script>
 </head>
 
 <body>

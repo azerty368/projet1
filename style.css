@@ -2,11 +2,25 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
     padding: 20 8%;
 
+}
+
+
+
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: orange;
+
+}
+
+.logo-div {
+    width: 30%;
 }
 
 img {
@@ -24,7 +38,9 @@ img {
     top: 200px;
     transform: translate(10%, 350%);
     font-size: 50px;
-    color: brown;
+    color: white;
+
+
 
 
 }
@@ -43,11 +59,18 @@ img {
 
 
 
+
+
 }
 
 .btn a {
     color: white;
     text-decoration: none;
+
+}
+
+.btn:hover {
+    background-color: red;
 
 }
 
@@ -76,4 +99,75 @@ ul li a:hover {
     padding: 5px;
 
 
+}
+
+.titre {
+    text-align: center;
+    color: orange;
+}
+
+.propos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.salade {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.salade:hover {
+    transform: scale(1.03)
+}
+
+.riz {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.riz:hover {
+    transform: scale(1.03)
+}
+
+.spago {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.spago:hover {
+    transform: scale(1.03)
+}
+
+.photo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu {
+    text-align: center;
+    color: orange;
+}
+
+.btn-spago {
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.btn-riz {
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.btn-salade {
+    padding: 5px;
+    margin: 5px;
+    background-color: orange;
+    border-radius: 10px;
 }
